@@ -5,9 +5,9 @@
     "@vercel/ncc": "^0.38.3",
     "axios": "^1.11.0"
   },
-  "name": "forgejo-createissuecomment",
+  "name": "forgejo-createcomment",
   "version": "1.0.0",
-  "description": "A Github Action to create issue comments on your forgejo instance via API.",
+  "description": "A Github Action to create comments on your forgejo instance via API.",
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/timherrm/forgejo-CreateIssueComment.git"
+    "url": "git+https://github.com/timherrm/forgejo-CreateComment.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/timherrm/forgejo-CreateIssueComment/issues"
+    "url": "https://github.com/timherrm/forgejo-CreateComment/issues"
   },
-  "homepage": "https://github.com/timherrm/forgejo-CreateIssueComment#readme"
+  "homepage": "https://github.com/timherrm/forgejo-CreateComment#readme"
 }

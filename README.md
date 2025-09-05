@@ -1,6 +1,6 @@
-# forgejo-CreateIssueComment
+# forgejo-CreateComment
 
-A Github Action to create issue comments on your forgejo instance via API.
+A Github Action to create comments on your forgejo instance via API.
 
 ## Usage/Examples
 
@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run Forgejo API Action
-        uses: timherrm/forgejo-CreateIssueComment@v1
+        uses: timherrm/forgejo-CreateComment@v1
         with:
           api_url: ${{ vars.FORGEJO_API_URL }}
           token: ${{ secrets.FORGEJO_TOKEN }}
@@ -32,13 +32,13 @@ see [action.yml](action.yml)
 Clone the project
 
 ```bash
-  git clone https://github.com/timherrm/forgejo-CreateIssueComment
+  git clone https://github.com/timherrm/forgejo-CreateComment
 ```
 
 Go to the project directory
 
 ```bash
-  cd forgejo-CreateIssueComment
+  cd forgejo-CreateComment
 ```
 
 Run

@@ -1,5 +1,5 @@
-name: "Forgejo-CreateBranch"
-description: "A Github Action to create issue comments on your forgejo instance via API."
+name: "Forgejo-CreateComment"
+description: "A Github Action to create comments on your forgejo instance via API."
 branding:
   icon: 'terminal'
   color: 'purple'
@@ -15,7 +15,7 @@ inputs:
     description: "The repository in the format owner/repo."
     required: true
   index:
-    description: "The index number of the issue to add the comment to."
+    description: "The index number of the issue or pull request to add the comment to."
     required: true
   body:
     description: "The body of the comment."

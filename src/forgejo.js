@@ -5,13 +5,13 @@ class ForgejoAPI {
         this.debug = debug;
     }
 
-    async CreateIssueComment(repository,index,body) {
+    async CreateComment(repository,index,body) {
         const requestBody = {};
         if (body) requestBody.body = body;
 
         // Debug output
         if (this.debug) {
-            console.log('CreateIssueComment payload:', requestBody);
+            console.log('CreateComment payload:', requestBody);
         }
 
         const response = await this._makeRequest(

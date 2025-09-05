@@ -13,7 +13,7 @@ async function run() {
         const forgejo = new ForgejoAPI(api_url, token, debug);
 
         let result;
-        result = await forgejo.CreateIssueComment(
+        result = await forgejo.CreateComment(
             repository,
             index,
             body
