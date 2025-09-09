@@ -35891,6 +35891,9 @@ async function run() {
             index,
             body
         );
+        if (debug) {
+            console.log('Final output:', JSON.stringify(result, null, 2));
+        }
         core.setOutput('result', JSON.stringify(result, null, 2));
     } catch (error) {
         core.setFailed(error.message);
