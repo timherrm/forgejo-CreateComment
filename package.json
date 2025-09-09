@@ -9,7 +9,6 @@
   "version": "1.0.0",
   "description": "A Github Action to create comments on your forgejo instance via API.",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,5 +23,6 @@
   "bugs": {
     "url": "https://github.com/timherrm/forgejo-CreateComment/issues"
   },
-  "homepage": "https://github.com/timherrm/forgejo-CreateComment#readme"
+  "homepage": "https://github.com/timherrm/forgejo-CreateComment#readme",
+  "devDependencies": {}
 }
